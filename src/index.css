@@ -1,0 +1,1029 @@
+body{
+  background-color: #030303;
+  margin: none;
+}
+.navbar{
+  position: relative;
+  height: 150px;
+  width: 100px;
+  border-radius: 90px 0 90px 0;
+  background-color:rgb(17, 19, 34);
+  box-shadow: 10px 10px  rgb(250, 248, 248);
+  color: rgb(253, 251, 251);
+  justify-self: center;
+  top: 70px;
+  border-left: 15px solid cyan;
+  border-right: 15px solid olive;
+}
+.navbar img{
+  position: relative;
+  width: 50vw;
+  height: 65vh;
+  flex: auto;
+  transform: translate(-45%);
+  top: 100px;
+}
+.navbar p{
+  position: relative;
+  color: rgb(8, 8, 8);
+  bottom: 100px;
+  font: 20px bold;
+}
+.navbar h3{
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  top: 50px;
+  font-size: 20px;
+  font-weight: 900;
+  font-style: italic;
+  animation-duration: 3s;
+  animation-name: ev;
+  animation-timing-function: 300ms;
+  animation-delay: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes ev{
+  from{
+    transform:translate(20px);
+  }
+  to{
+    transform: translateY(0px);
+  }
+}
+.menu{
+  position: fixed;
+  background-color: #242323;
+  width: 100vw;
+  height: 10vh;
+  justify-self: center;
+  text-align: center;
+  justify-content: space-around;
+  display:flex;
+  flex: auto;
+  top: 0px;
+}
+.bar{
+  display: flex;
+  gap: 25px;
+}
+.bar a{
+  position: relative;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  justify-items: center;
+  top: 10px;
+  flex: auto;
+  text-transform: capitalize;
+  font-weight: 700;
+  cursor: pointer;
+}
+.bar a:hover{
+  position: relative;
+  transition:all ease-in 0.3s;
+  border-radius: 10px;
+  color: #6d6b6b;
+}
+.card{
+  position: relative;
+  text-align: center;
+  width: 100vw;
+  height: 120vh;
+  justify-self: center;
+  background-color: whitesmoke;
+  top: 40px;
+}
+.card p{
+  position: relative;
+  top: 30px;
+  font-weight: 900;
+  font-size: medium;
+}
+.card button{
+  position: relative;
+  top: 40px;
+  width: 15vw;
+  height: 8vh;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: #050524;
+  color: white;
+  font: 20px bold;
+  font-weight: 900;
+  cursor: pointer;
+}
+.card button:hover{
+  position: relative;
+  transition: all ease-in 0.3s;
+  background-color: rgb(224, 207, 207);
+  color: black;
+  border-radius: none;
+  border: 0px solid rgb(207, 184, 184);
+}
+#contact.card1{
+  position: relative;
+  background-color: white;
+  color: rgb(7, 7, 7);
+  width: 80vw;
+  height: 75vh;
+  top: 20px;
+  justify-self: center;
+  border-radius: 20px;
+}
+.card1 input{
+  position: relative;
+  text-align: center;
+  width: 20vw;
+  height: 7vh;
+  border-radius: 5px;
+  border: 1px solid violet;
+  cursor: pointer;
+}
+.card1 label{
+  position: relative;
+  font: 20px bold;
+}
+.card1 input::placeholder{
+  color:black;
+  position: relative;
+  font: 20px bold;
+}
+.card1 textarea{
+  position: relative;
+  width: 30vw;
+  height: 15vh;
+  border: 2px solid cyan;
+  border-radius: 5px;
+}
+.card1 textarea::placeholder{
+  color: black;
+  position: relative;
+  text-align: center;
+  font: 20px bold;
+}
+.butt{
+  position: relative;
+  bottom: 75px;
+}
+.butt button{
+  position: relative;
+  width: 15vw;
+  height: 8vh;
+  background-color: rgb(4, 46, 4);
+  color: white;
+  font: 20px bold;
+  font-weight: 900;
+  font-style: italic;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+.butt button:hover{
+  position: relative;
+  transition: all ease-in 0.3s;
+  background-color: yellow;
+  border: 1px solid yellow;
+  cursor: pointer;
+}
+#about.about{
+  position: relative;
+  text-align: center;
+}
+.image{
+  position: relative;
+  width: auto;
+  top: 100px;
+  height: auto;
+  background-color: transparent;
+}
+.about h1{
+  position: relative;
+  font-weight: 900;
+  font-style: italic;
+  top: 70px;
+  color: rgb(6, 203, 252);
+  text-transform: capitalize;
+}
+.image p{
+  position: relative;
+  font-size: medium;
+  font-weight: 900;
+  bottom: 20px;
+  color: white;
+}
+.skill{
+  position: relative;
+  width: 100vw;
+  height: auto;
+  top: 100px;
+  justify-self: center;
+  background: linear-gradient(to right,white,skyblue);
+}
+.skill h1{
+  position: relative;
+  top: 0px;
+}
+.card0{
+  position: relative;
+  width: 20vw;
+  height: 20vh;
+  margin-left: 10px;
+  flex: auto;
+  background-color: rgb(145, 141, 141);
+  border-radius: 20px;
+  top: 0px;
+  justify-self: left;
+  border-left:3px solid green;
+}
+.card0 h2{
+  color: rgb(248, 150, 38);
+  position: relative;
+  font-style: italic;
+  top: 40px;
+  flex: auto;
+}
+.card2{
+  position: absolute;
+  width: 20vw;
+  height: 20vh;
+  background-color: rgb(117, 101, 101);
+  border-radius: 20px;
+  justify-self: center;
+  top:60px;
+  border-left:3px solid rgb(245, 63, 8);
+}
+.card2 h2{
+    color: rgb(163, 3, 11);
+  position: relative;
+  font-style: italic;
+  top: 20px;
+}
+.card3{
+   position: absolute;
+  width: 20vw;
+  height: 20vh;
+  background-color: rgb(131, 92, 133);
+  border-radius: 20px;
+  justify-self: right;
+  margin-right: 10px;
+  top: 60px;
+  border-left:3px solid rgb(3, 186, 241);
+}
+.card3 h2{
+  color: rgb(253, 248, 253);
+  position: relative;
+  font-style: italic;
+  top: 20px;
+}
+.card4{
+   position: relative;
+  width: 20vw;
+  height: 20vh;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  top: 20px;
+  justify-self: center;
+  transform: translate(-150%,20px);
+  border-left:3px solid rgb(247, 2, 63);
+}
+.card4 h2{
+   color: rgb(29, 3, 51);
+  position: relative;
+  font-style: italic;
+  top: 40px;
+}
+.card5{
+ position: absolute;
+  width: 20vw;
+  height: 20vh;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  justify-self: center;
+  top: 230px;
+  transform: translate(150%);
+  border-left:3px solid rgb(201, 3, 250);
+}
+.card5 h2{
+  color: rgb(3, 29, 39);
+  position: relative;
+  font-style: italic;
+  top: 20px;
+}
+.card6{
+  position: absolute;
+  width: 20vw;
+  height: 20vh;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  justify-self: center;
+  top: 240px;
+  border-left:3px solid rgb(25, 1, 247);
+}
+.card6 h2{
+  color: rgb(3, 3, 22);
+  position: relative;
+  font-style: italic;
+  top: 20px;
+}
+.card7{
+  position: relative;
+  width: 20vw;
+  height: 20vh;
+  background-color: rgb(241, 233, 243);
+  border-radius: 20px;
+  top: 0px;
+  justify-self: center;
+  border-left:3px solid rgb(252, 227, 2);
+}
+.card7 h2{
+  color: blue;
+  position: relative;
+  font-style: italic;
+  top: 40px;
+}
+.card8{
+  position: relative;
+  width: 100vw;
+  top: 75px;
+  justify-self: center;
+  height: auto;
+  background-color: whitesmoke;
+}
+.card8 h1{
+  position: relative;
+  top: 10px;
+}
+.c1{
+  position: relative;
+  width: 40vw;
+  height: 20vh;
+  border-radius: 20px;
+  border: 1px solid cyan;
+  justify-self: center;
+  flex: auto;
+  background-color: white;
+}
+.c1 h5{
+  position: relative;
+  font: medium bold;
+  font-weight: 900;
+  color: rgb(32, 31, 31);
+}
+.c2{
+  position: relative;
+  width: 45vw;
+  height: 20vh;
+  border-radius: 20px;
+  border: 1px solid cyan;
+  justify-self: center;
+  top: 10px;
+  flex: auto;
+  background-color: white;
+}
+.c2 h5{
+   position: relative;
+  font: medium bold;
+  font-weight: 900;
+  color: rgb(29, 28, 28);
+}
+.c3{
+   position: relative;
+  width: 50vw;
+  height: 20vh;
+  border-radius: 20px;
+  border: 1px solid cyan;
+  justify-self: center;
+  top: 20px;
+  flex: auto;
+  background-color: white;
+}
+.c3 h5{
+ position: relative;
+  font: medium bold;
+  font-weight: 900;
+  color: rgb(27, 27, 27);
+}
+.c4{
+  position: fixed;
+  top: 550px;
+  justify-self: end;
+}
+.c4 button{
+  position: relative;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+.c5{
+  position: fixed;
+  justify-self: left;
+  top:15px;
+}
+.c5 button{
+  position: fixed;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: wheat;
+  cursor: pointer;
+}
+.c6{
+  position: relative;
+  width: auto;
+  height: 5vw;
+  top: 80px;
+  background-color:transparent;
+}
+.c6 h3{
+  position: relative;
+  font-size: 35px;
+  top: 5px;
+  color: purple;
+  text-shadow: 15px 15px  rgb(20, 19, 19);
+  text-transform: capitalize;
+  font-style: italic;
+}
+.c6 h3:hover{
+  position: relative;
+  transition: all ease-in 0.3s;
+  color: rgb(47, 2, 90);
+  cursor: pointer;
+  text-shadow: 10px 10px green;
+}
+#service.service{
+  position: relative;
+  background-color: rgb(161, 206, 226);
+  width: 100vw;
+  justify-self: center;
+  top: 130px;
+  height: auto;
+}
+#service.service:hover{
+position: relative;
+background-color: wheat;
+cursor: pointer;
+}
+.service h1{
+  position: relative;
+  text-align: center;
+  color: rgb(3, 32, 49);
+}
+.save{
+  position: relative;
+}
+.page{
+  position: relative;
+  width: 25vw;
+  margin-left: 5px;
+  height: auto;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  flex: auto;
+  border-bottom: 6px solid wheat;
+  border-left: 2px solid blue;
+}
+.page:hover{
+  position: relative;
+  cursor: pointer;
+  transition:  0.3s;
+  transform: translateX(4px);
+  padding-left: 4px;
+}
+.page img{
+  position: relative;
+  width: 15vw;
+  height: 15vh;
+  border-radius: 10px;
+}
+.page1{
+  position: absolute;
+  width: 25vw;
+  margin-left: 5px;
+  justify-self: center;
+  height: auto;
+  text-align: center;
+  background-color: white;
+  bottom: 0px;
+  border-radius: 10px;
+  flex: auto;
+  border-bottom: 6px solid wheat;
+  border-left: 2px solid green;
+}
+.page1 img{
+    position: relative;
+  width: 15vw;
+  height: 15vh;
+  border-radius: 10px;
+  cursor: pointer;
+  top: 5px;
+}
+.page2{
+   position: absolute;
+  width: 25vw;
+  margin-left: 5px;
+  justify-self: end;
+  height: auto;
+  text-align: center;
+  background-color: white;
+  bottom: 0px;
+  border-radius: 10px;
+  margin-right: 5px;
+  border-left: 2px solid orange;
+  flex: auto;
+  border-bottom: 6px solid wheat;
+}
+.page2 img{
+    position: relative;
+  width: 15vw;
+  height: 15vh;
+  border-radius: 10px;
+  top: 5px;
+  cursor: pointer;
+}
+.page3{
+  position: relative;
+  text-align: center;
+  width: 90vw;
+  height: auto;
+  background-color:whitesmoke;
+  justify-self: center;
+  top: 2px;
+  border-radius: 10px;
+  border-right: 2px solid rgb(240, 4, 248);
+  border-left: 2px solid rgb(255, 0, 191);
+}
+.page3:hover{
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+  background: linear-gradient(to bottom,skyblue,whitesmoke,white);
+}
+.page3 img{
+  position: relative;
+  width: 30vw;
+  height: 30vh;
+  top: 5px;
+  border-radius: 10px;
+  opacity: 1;
+  border-left: 5px solid darkblue;
+  border-bottom: 5px solid darkblue;
+}
+.page3 p{
+  position: relative;
+  font-weight: 900;
+  color: black;
+}
+.page4{
+  position: relative;
+  background-image: url('./assets/image/tree.jpg');
+  background-size: cover;
+  width: auto;
+  height: auto;
+  color: #030303;
+  opacity: 1;
+  text-align: center;
+}
+.page4 input{
+  position: relative;
+  width: 25vw;
+  background-color: rgb(238, 238, 250);
+  height: 8vh;
+  color: rgb(10, 10, 10);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.page4 h4{
+  position: relative;
+  font-size: 20px;
+  font-weight: 900;
+  font-style: italic;
+}
+.page5{
+  position: relative;
+  text-align: center;
+  justify-self: left;
+}
+.page5 button{
+  position: relative;
+  width: 16vw;
+  height: 8vh;
+  background-color: rgb(3, 3, 32);
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  bottom: 10px;
+  margin-left: 10px;
+  text-transform: capitalize;
+  border: 1px solid transparent;
+  flex: auto;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.page6{
+  position: absolute;
+  text-align: center;
+  justify-self: right;
+  margin-right: 10px;
+  bottom: 0px;
+}
+.page6 button{
+   position: relative;
+  width: 16vw;
+  height: 8vh;
+  background-color: #030324;
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  bottom: 10px;
+  text-transform: capitalize;
+  margin-left: 10px;
+  border: 1px solid transparent;
+  flex: auto;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.page5 button:hover{
+position: relative;
+transition: all ease-in;
+background: linear-gradient(to right,#310431,#040444);
+color: #faf8f8;
+cursor: pointer;
+}
+.page6 button:hover{
+  position: relative;
+  transition: all ease-in 0.3s;
+  border: none;
+  background: linear-gradient(to right,#310431,#040444);
+}
+#product.container{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  color: black;
+  justify-self: center;
+  flex-direction: column;
+  top: 100px;
+  background-size: cover;
+  background-color:whitesmoke;
+}
+.container h4{
+  position: relative;
+  text-align: center;
+  top: 70px;
+  font-size: 20px;
+  font-weight: 900;
+  color: black;
+  font-style: italic;
+}
+.prod{
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.p0{
+  position: relative;
+  width: 25vw;
+  margin-left: 5px;
+  height: auto;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  top: 50px;
+  flex: auto;
+  border-bottom: 6px solid rgb(68, 250, 13);
+  border-left: 2px solid blue;
+}
+.p0 img{
+  position: relative;
+  top: 5px;
+  border-radius: 10px;
+  width: 20vw;
+  height: 20vh;
+}
+.p1{
+   position: absolute;
+  width: 25vw;
+  justify-self: center;
+  bottom: 80px;
+  height: auto;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  flex: auto;
+  border-bottom: 6px solid rgb(243, 10, 204);
+  border-left: 2px solid rgb(14, 187, 255);
+}
+.p1 img{
+  position: relative;
+  top: 5px;
+  border-radius: 10px;
+  width: 20vw;
+  height: 20vh;
+}
+.p2{
+   position: absolute;
+  width: 25vw;
+  justify-self: end;
+  bottom: 80px;
+  height: auto;
+  margin-right: 10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  flex: auto;
+  border-bottom: 6px solid rgb(8, 248, 228);
+  border-left: 2px solid rgb(14, 243, 33);
+}
+.p2 img{
+    position: relative;
+  top: 5px;
+  border-radius: 10px;
+  width: 20vw;
+  height: 20vh;
+}
+.p3{
+    position: relative;
+  width: 25vw;
+  margin-left: 5px;
+  height: auto;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  flex: auto;
+  top: 120px;
+  border-bottom: 6px solid rgb(68, 250, 13);
+  border-left: 2px solid blue;
+}
+.p3 img{
+    position: relative;
+  top: 5px;
+  border-radius: 10px;
+  width: 20vw;
+  height: 20vh;
+}
+.p4{
+   position: absolute;
+  width: 25vw;
+  justify-self: center;
+  top: 300px;
+  height: auto;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  flex: auto;
+  border-bottom: 6px solid rgb(243, 10, 204);
+  border-left: 2px solid rgb(14, 187, 255);
+}
+.p4 img{
+   position: relative;
+  top: 5px;
+  border-radius: 10px;
+  width: 20vw;
+  height: 20vh;
+}
+.p5{
+   position: absolute;
+  width: 25vw;
+  justify-self: end;
+  top: 300px;
+  height: auto;
+  margin-right: 10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  flex: auto;
+  border-bottom: 6px solid rgb(8, 248, 228);
+  border-left: 2px solid rgb(14, 243, 33);
+}
+.p5 img{
+     position: relative;
+  top: 5px;
+  border-radius: 10px;
+  width: 20vw;
+  height: 20vh;
+}
+#footer.footer{
+  position: relative;
+  width: auto;
+  height:80vh;
+  flex: auto;
+  background-color: #1b1b1b;
+  color: white;
+  top: 120px;
+}
+.ft{
+  position: relative;
+  justify-self: left;
+  background-color: transparent;
+  width: 20vw;
+  height: auto;
+  bottom: 0px;
+}
+.ft h1{
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  top: 120px;
+}
+.links{
+  position: relative;
+  display: grid;
+  text-align: center;
+  flex: auto;
+  top: 100px;
+}
+.links a{
+  position: relative;
+  gap: 10px;
+  color: rgb(179, 179, 182);
+  text-decoration: none;
+  cursor: pointer;
+  top: 10px;
+}
+.links a:hover{
+  position: relative;
+  text-decoration: underline;
+  transition: all ease-in 0.3s;
+  color: rgb(4, 199, 248);
+}
+.sub{
+  position: absolute;
+  width: 20vw;
+  height: auto;
+  justify-self: center;
+  text-align: center;
+  background-color: transparent;
+  cursor: pointer;
+  bottom:220px;
+  flex: auto;
+}
+.sub h1{
+  position: relative;
+  font-size: 20px;
+  top: 25px;
+  font-style: italic;
+}
+.sb{
+  position: relative;
+  text-align: center;
+  display: grid;
+}
+.sb a{
+  position: relative;
+  text-decoration: none;
+  color: rgb(165, 165, 167);
+  flex: auto;
+  cursor: pointer;
+  top: 15px;
+}
+.sb a:hover{
+  position: relative;
+  cursor: pointer;
+  transition: all ease-in 0.3s;
+  color: #01e8f8;
+  text-decoration: underline;
+}
+.social{
+  position: absolute;
+  justify-self: end;
+  width: 20vw;
+  height: auto;
+  text-align: center;
+  bottom:280px;
+  flex: auto;
+}
+.media{
+  position: relative;
+  text-align: center;
+  display: grid;
+}
+.media h1{
+  position: relative;
+  font-size: 20px;
+  font-style: italic;
+  top: 10px;
+}
+.media a{
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  gap: 5px;
+  color: rgb(175, 175, 177);
+}
+.media a:hover{
+  position: relative;
+  color: rgb(2, 215, 253);
+  cursor: pointer;
+  transition: all ease-in 0.3s;
+  text-decoration: underline;
+}
+.form{
+  position: relative;
+  justify-self: center;
+}
+.fr h1{
+  position: relative;
+  font-size: 20px;
+  text-transform: capitalize;
+  top: 210px;
+}
+.fr input{
+  position: relative;
+  top: 200px;
+  width: 30vw;
+  color:white;
+  font-size:20px;
+  height: 6vh;
+  background-color: #01010e;
+  border-radius: 5px;
+  border: 1px solid rgb(92, 92, 94);
+}
+.fr button{
+  position: relative;
+  width: 10vw;
+  height: 6vh;
+  margin-left: 10px;
+  top: 200px;
+  flex: auto;
+  border: 1px solid rgb(21, 43, 43);
+  background-color: rgb(33, 56, 56);
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+}
+.fr button:hover{
+  position: relative;
+  transition: all ease-in 0.3s;
+  cursor: pointer;
+  background-color: rgb(2, 41, 41);
+  color: white;
+  border: 1px solid rgb(2, 41, 41);
+}
+@media(max-width:30px) {
+  .fr button{
+    display: grid;
+  }
+}
+.aft{
+  position: relative;
+  background-color: transparent;
+  top: 20px;
+}
+.other{
+  position: relative;
+  width: 60vw;
+  height: auto;
+  justify-self: left;
+}
+.cook{
+  position: relative;
+  gap: 15px;
+  display: flex;
+  top: 200px;
+}
+.cook a{
+  position: relative;
+  color: rgb(165, 165, 168);
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.cook a:hover{
+  position: relative;
+  color: white;
+  transition: all ease-in 0.3s;
+  cursor: pointer;
+}
+.fter{
+  position: absolute;
+  justify-self: end;
+  top: 150px;
+}
+.sett{
+  position: relative;
+  text-align: center;
+}
+.sett select{
+  position: relative;
+  width: 10vw;
+  height: 6vh;
+  border: 1px solid transparent;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+  font: 20px bold;
+  text-align: center;
+}
+.sett select:hover{
+  transition: all ease-in 0.3s;
+  position: relative;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
