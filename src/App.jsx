@@ -9,6 +9,11 @@ import Blogs from "./component/blogs";
 import Join from "./component/join";
 import Footer from "./component/footer";
 import Login from "./component/login";
+import Agent from "./page/agent";
+import Developer from "./page/developer";
+import Document from "./page/document";
+import Status from "./page/status";
+import Support from "./page/support";
 function App(){
 return(
   <div className="home">
@@ -23,6 +28,11 @@ return(
   <Route path="/login" element={<Login/>}>login</Route>
   <Route path="/join" element={<Join/>}>join</Route>
   <Route path="/footer" element={<Footer/>}>footer</Route>
+    <Route path="/agent" element={<Agent/>}>agents</Route>
+    <Route path="/developer" element={<Developer/>}>developer</Route>
+    <Route path="/document" element={<Document/>}>document</Route>
+    <Route path="/status" element={<Status/>}>status</Route>
+    <Route path="/support" element={<Support/>}>support</Route>
 </Routes>
 </BrowserRouter>
   </div>
