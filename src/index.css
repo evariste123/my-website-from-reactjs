@@ -1159,3 +1159,70 @@ border: 1px solid rgb(112, 111, 111);
   color: white;
   border: 1px solid transparent;
 }
+#join.join{
+  position: relative;
+  width: auto;
+  height: 46vw;
+  top: 30px;
+  background-color: rgb(1, 119, 119);
+  text-align: center;
+}
+.sign{
+  position: relative;
+  width: 50vw;
+  height: 70vh;
+  justify-self: center;
+  border-radius: 30px;
+  top: 70px;
+  background-color: rgb(1, 56, 56);
+}
+.sign h1{
+  position: relative;
+  top: 50px;
+  color: white;
+  text-transform: capitalize;
+}
+.sign h4{
+  position: relative;
+  color: #a5a3a3;
+  top: 50px;
+}
+.sign input{
+  position: relative;
+  top: 50px;
+  width: 30vw;
+  height: 6vh;
+  border: 1px solid rgb(245, 153, 245);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sign input::placeholder{
+  position: relative;
+  font: bold;
+  font-weight: 500;
+  font-style: italic;
+  color: rgb(63, 61, 61);
+  font-size: 20px;
+}
+.butto{
+  position: relative;
+  top: 50px;
+}
+.butto button{
+  position: relative;
+  width: 15vw;
+  height: 7vh;
+  border: 1px solid black;
+  color: white;
+  border-radius: 20px;
+  background-color: black;
+}
+.butto button:hover{
+  position: relative;
+  transition: all ease-in 0.3s;
+  cursor: pointer;
+  background-color: #181717;
+  color: wheat;
+  border: 1px solid transparent;
+  text-transform: capitalize;
+}
