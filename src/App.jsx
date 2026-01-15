@@ -7,7 +7,6 @@ import Service from "./component/service";
 import Product from "./component/product";
 import Blogs from "./component/blogs";
 import Join from "./component/join";
-import Footer from "./component/footer";
 import Login from "./component/login";
 import Agent from "./page/agent";
 import Developer from "./page/developer";
@@ -27,7 +26,6 @@ return(
   <Route path="/blogs" element={<Blogs/>}>blogs</Route>
   <Route path="/login" element={<Login/>}>login</Route>
   <Route path="/join" element={<Join/>}>join</Route>
-  <Route path="/footer" element={<Footer/>}>footer</Route>
     <Route path="/agent" element={<Agent/>}>agents</Route>
     <Route path="/developer" element={<Developer/>}>developer</Route>
     <Route path="/document" element={<Document/>}>document</Route>

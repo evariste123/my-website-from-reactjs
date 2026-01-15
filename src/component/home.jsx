@@ -29,6 +29,67 @@ function Home() {
                    <a href=""><button type="button"> <b>❓💬help</b></button></a>
                 </div>
             </section>
+            <section className="futa">
+            <div className='g'>
+        <h1>quick-links</h1>
+        <div className='link'>
+        <a href="#home">home</a>
+        <a href="#contact">contact</a>
+        <a href="#about">about</a>
+        <a href="#service">service</a>
+        <a href="#product">product</a>
+        </div>
+        </div>
+        <div className='su'>
+        <div className='s'>
+        <h1>sub-links</h1>
+        <a href="#docs">Docs</a>
+        <a href="#status">Status</a>
+        <a href="#support">Support</a>
+        <a href="#developer">developer guides</a>
+        <a href="#agent">Agents experience</a>
+    </div>
+    </div>
+    <div className='socia'>
+        <div className='medi'>
+        <h1>social-media</h1>
+        <a href="https://www.youtube.com/@evaristebapfekurera5995">you tube</a>
+        <a href="https://www.facebook.com/evariste.arrogent.ever">facebook</a>
+        <a href="https://www.instagram.com/evari_ste2025/">instagram</a>
+        <a href="https://www.linkedin.com/in/evariste-bapfekurera-a3700b2b0/">linkedin</a>
+        <a href="https://x.com/EBapfekure3">twitter</a>
+    </div>
+    </div>
+    <div className='form1'>
+        <form action="">
+            <div className='f'>
+                <h1>Stay up to date with Ebcodes news,add your 📩</h1>
+                <input type="text"  id="email" required placeholder='Email' />
+                <button type='submit'>--▶</button>
+            </div>
+        </form>
+    </div>
+     <section className='af'>
+        <div className='oth'>
+            <div className='cool'>
+            <a href="">trust center</a>
+            <a href="">privacy</a>
+            <a href="">abuse</a>
+            <a href="">cookie setting</a>
+        </div>
+        </div>
+        <div className='fte'>
+            <div className='set'>
+                <p>©evariste🍁 leaf 2026</p>
+                <select id='syste'>
+                    <option value="">system</option>
+                    <option value="">dark</option>
+                    <option value="">light</option>
+                </select>
+            </div>
+        </div>
+    </section>
+            </section>
         </div>
     )
 }
