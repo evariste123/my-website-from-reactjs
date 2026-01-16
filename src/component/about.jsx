@@ -63,12 +63,12 @@ function About(){
         </div>
     </div>
     <div className='c4'>
-        <a href="/">
-            <button type='clcik'>🔺</button>
+        <a href="/up">
+            <button type='clcik'>🔻 </button>
         </a>
     </div>
     <div className='c5'>
-        <a href="/footer">
+        <a href="/">
             <button type='click-down'>🇧evariste🍁 leaf</button>
         </a>
     </div>

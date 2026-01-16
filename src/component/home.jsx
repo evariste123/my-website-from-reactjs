@@ -33,21 +33,24 @@ function Home() {
             <div className='g'>
         <h1>quick-links</h1>
         <div className='link'>
-        <a href="#home">home</a>
-        <a href="#contact">contact</a>
-        <a href="#about">about</a>
-        <a href="#service">service</a>
-        <a href="#product">product</a>
+        <a href="/">home</a>
+        <a href="/contact">contact</a>
+        <a href="/about">about</a>
+        <a href="/service">service</a>
+        <a href="/product">product</a>
+        <a href="/blogs">blogs</a>
+        <a href="/login">login</a>
+        <a href="/join">join</a>
         </div>
         </div>
         <div className='su'>
         <div className='s'>
         <h1>sub-links</h1>
-        <a href="#docs">Docs</a>
-        <a href="#status">Status</a>
-        <a href="#support">Support</a>
-        <a href="#developer">developer guides</a>
-        <a href="#agent">Agents experience</a>
+        <a href="/document">Document</a>
+        <a href="/status">Status</a>
+        <a href="/support">Support</a>
+        <a href="/developer">developer guides</a>
+        <a href="/agent">Agents experience</a>
     </div>
     </div>
     <div className='socia'>

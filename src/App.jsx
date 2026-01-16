@@ -26,11 +26,11 @@ return(
   <Route path="/blogs" element={<Blogs/>}>blogs</Route>
   <Route path="/login" element={<Login/>}>login</Route>
   <Route path="/join" element={<Join/>}>join</Route>
-    <Route path="/agent" element={<Agent/>}>agents</Route>
-    <Route path="/developer" element={<Developer/>}>developer</Route>
-    <Route path="/document" element={<Document/>}>document</Route>
-    <Route path="/status" element={<Status/>}>status</Route>
-    <Route path="/support" element={<Support/>}>support</Route>
+  <Route path="/agent" element={<Agent/>}>agents</Route>
+  <Route path="/developer" element={<Developer/>}>developer</Route>
+  <Route path="/document" element={<Document/>}>document</Route>
+  <Route path="/status" element={<Status/>}>status</Route>
+  <Route path="/support" element={<Support/>}>support</Route>
 </Routes>
 </BrowserRouter>
   </div>
