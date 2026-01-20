@@ -91,6 +91,58 @@ function Document(){
                     </p>
                 </div>
             </div>
+            <div className="gaga">
+                <img src="src/assets/pages/image/c4.png" alt="image" />
+                <img src="src/assets/pages/image/c5.png" alt="image" />
+                <img src="src/assets/pages/image/c6.jpeg" alt="image" />
+                <p>
+                    we build our future through this website to engage some one to know more our information <br />
+                    and our work and also we would like to informal our followers or clients to dive to our website to get <br />
+                    every things you need to pass through to grow your business and how it can be hited across the global <br />
+                    and to get some one via the world to know what we can to do and what can to make in the simplest way <br />
+                    that's why we are here for every one to give you all things you wish to know or to get inorder to enhancing or bosting <br />
+                    your business and to make more some connection nwith your clients on this website and also don't forget to make some <br />
+                    addition you required to add,and also to make full mantainance for your peoducts to be have full secure and safe <br />
+                    it's good to know what you need to change in your mind and make some things is new and know what is needed to modify inorder <br />
+                    to give your customer full pakage and should know all things peaople needed from your business and your products. <br />
+                    so we need your advice and your comment inorder to know what is needed and what is what we are gonna change.
+                </p>
+            </div>
+            <div className="gad">
+                <a href=""><button type="button">🔜Apply now</button></a>
+            </div>
+            <div className="gad1">
+                <a href=""><button type="button">⬇download pdf</button></a>
+            </div>
+            <div className="gad2">
+                <a href=""><button type="button">edit⤴ </button></a>
+            </div>
+            <div className="fut">
+                <h1>quick-links</h1>
+                <div className="gad0">
+                    <div className="rate">
+                    <a href="/document">document</a>
+                    <a href="/status">status</a>
+                    <a href="/support">support</a>
+                    <a href="/developer">developer</a>
+                    <a href="/agent">agent</a>
+                    </div>
+                </div>
+                <div className="caro">
+                    <b>stay up date with us👇for getting news from our website</b>
+                    <div className="caro1">
+                        <form action="">
+                        <input type="text"  id="Email" required placeholder="Email..." />
+                        <button type="submit">send</button>
+                        </form>
+                    </div>
+                </div>
+                <div className="gad3">
+                    <div className="gad4">
+                        <p>©Evariste🍁 leaf 2025 </p>
+                    </div>
+                </div>
+            </div>
         </section>
     )
 }
