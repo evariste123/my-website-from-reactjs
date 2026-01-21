@@ -139,7 +139,7 @@ function Document(){
                 </div>
                 <div className="gad3">
                     <div className="gad4">
-                        <p>©Evariste🍁 leaf 2025 </p>
+                        <p>©Evariste🍁 leaf 2026 </p>
                     </div>
                 </div>
             </div>

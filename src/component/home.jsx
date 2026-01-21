@@ -93,6 +93,31 @@ function Home() {
         </div>
     </section>
             </section>
+            <div className="lang">
+                <h2>language setting🌍</h2>
+                <div className="language">
+                    <select name="language" id="language">
+                        <option value="">🇬🇧 english</option>
+                        <option value="">🇫🇷 french</option>
+                        <option value="">🇹🇿kiswahili</option>
+                        <option value="">🇵🇹 portguese</option>
+                        <option value="">🇦🇸amarican</option>
+                        <option value="">🇨🇫africaans</option>
+                        <option value="">🇧🇮 kirundi</option>
+                        <option value="">🇷🇼kinyarwanda</option>
+                        <option value="">🇨🇬congolese</option>
+                        <option value="">🇨🇦 canadian</option>
+                        <option value="">🇸🇸 arabic</option>
+                        <option value="">🇺🇸 united SA</option>
+                        <option value="">🇨🇳chinese</option>
+                        <option value="">🎌japanese</option>
+                        <option value="">🇪🇸 spanish</option>
+                        <option value="">🇮🇳 hindi</option>
+                        <option value="">🇷🇺Russian</option>
+                        <option value="">🇸🇸 urdu</option>
+                    </select>
+                </div>
+            </div>
         </div>
     )
 }
