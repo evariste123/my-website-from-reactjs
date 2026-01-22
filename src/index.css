@@ -2769,3 +2769,230 @@ font-weight: 900;
   font-weight: 900;
   font-style: italic;
 }
+#developer.developer{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  justify-self: center;
+  background-color: #030324;
+  color: white;
+  top: 20px;
+}
+.developer h3{
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+.sdk{
+  position: relative;
+  margin-left: 20px;
+  justify-self: left;
+}
+.sdk1 button{
+  position: relative;
+  width: 20vw;
+  height: 10vh;
+  border: 5px solid wheat;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  top: 100px;
+  font:20px bold;
+  flex: auto;
+  overflow-wrap: break-word;
+  font-weight: 900;
+}
+.sdk1 button:hover{
+  position: relative;
+  transition: all ease-in 0.3s;
+  cursor: pointer;
+  background-color: #012020;
+  color: white;
+}
+.sdk2{
+  position: relative;
+  justify-self: center;
+  text-align: center;
+  top: 30px;
+}
+.sdk3 button{
+  position:relative;
+  width: 20vw;
+  height: 10vh;
+  font: 20px bold;
+  overflow-wrap: break-word;
+  background-color: #05fd05;
+  color: black;
+  border: 5px solid #014101;
+  border-radius: 20px;
+}
+.sdk3 button:hover{
+  position: relative;
+  transition: all ease-in 0.3s;
+  cursor: pointer;
+  color: white;
+  background-color: #010c0f;
+}
+.dev{
+  position: absolute;
+  justify-self: center;
+   top: 400px;
+   width: 150px;
+   height: 150px;
+   flex: auto;
+   text-align: center;
+   border-radius: 90px 0 90px 0;
+   background: linear-gradient(to right,indigo,cyan,orange);
+  animation-timing-function: 300ms;
+  animation-duration: 15s;
+  animation-name: dev;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes dev{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+.devo button{
+  position:relative;
+  text-align: center;
+  border: none;
+  top: 5px;
+  width: 150px;
+  margin-left: 10px;
+  font: 20px bold;
+  cursor: pointer;
+  height: 150px;
+  border-radius: 0 100px 0 100px;
+  background: linear-gradient(to bottom,whitesmoke,skyblue,cyan);
+  animation-timing-function: 300ms;
+  animation-duration: 10s;
+  animation-name: devo;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes devo{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+.devi{
+  position: relative;
+  background-color: #181717;
+  width: 100vw;
+  top: 380px;
+  height: 50vh;
+  justify-self: center;
+}
+.dev1{
+position: relative;
+width: 20vw;
+height: auto;
+background-color: transparent;
+text-align: center;
+}
+.dev1 h4{
+  position: relative;
+  font: 20px bold;
+  top: 10px;
+  color: rgb(95, 93, 93);
+}
+.dev2{
+  display: grid;
+  gap: 5px;
+}
+.dev2 a{
+  position: relative;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+.dev2 a:hover{
+  position: relative;
+  color: hotpink;
+  transform: translateY(2px);
+  padding-left: 2px;
+  transition: all ease-in 0.3s;
+}
+.dev3{
+  position: absolute;
+  justify-self: center;
+  width: 20vw;
+  height: auto;
+  background-color: transparent;
+  bottom: 130px;
+  text-align: center;
+}
+.dev3 h4{
+  position: relative;
+  color: #555454;
+  font: 20px bold;
+}
+.dev4{
+  display: grid;
+  gap: 5px;
+}
+.dev4 a{
+  position: relative;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.dev4 a:hover{
+  position: relative;
+  color: hotpink;
+  cursor: pointer;
+  transition: all ease-in 0.3s;
+  transform: translateY(2px);
+  padding-left: 2px;
+}
+.dev5{
+  position: absolute;
+  justify-self: right;
+  margin-right: 20px;
+  width: 20vw;
+  height: auto;
+  text-align: center;
+  background-color: transparent;
+  bottom: 160px;
+}
+.dev5 h4{
+  position: relative;
+  color: #4d4b4b;
+  font: 20px bold;
+}
+.dev6{
+  display: grid;
+  gap: 5px;
+}
+.dev6 a{
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  text-transform: capitalize;
+}
+.dev6 a:hover{
+  position: relative;
+  cursor: pointer;
+  color: hotpink;
+  transition: all ease-in 0.3s;
+  transform: translateY(2px);
+  padding-left: 2px;
+}
+.dev7{
+  position: relative;
+  justify-self: center;
+  font: 20px bold;
+  color: rgb(65, 63, 63);
+}
