@@ -2507,27 +2507,97 @@ font-weight: 900;
   color: white;
   text-transform: capitalize;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#support.support{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  top: 45px;
+  justify-self: center;
+  background-color: rgb(60, 61, 61);
+}
+.spt h3{
+  position: relative;
+  text-align: center;
+  top: 20px;
+  color: white;
+}
+.spt span{
+  position: relative;
+  color: green;
+}
+.dora{
+  position: relative;
+  text-align: center;
+  top: 80px;
+}
+.dora button{
+  position: relative;
+  width: 20vw;
+  height: 10vh;
+  font-size: 20px;
+  color: indigo;
+  font: bold;
+  text-transform: capitalize;
+  overflow-wrap: break-word;
+  border: 5px solid white;
+  border-radius: 10px;
+  margin-left: 20px;
+  background-color: wheat;
+}
+.dora button:hover{
+  position: relative;
+  cursor: pointer;
+  color: rgb(163, 161, 161);
+  background-color: rgb(31, 0, 31);
+  transition: all ease-in 0.3s;
+}
+.suppo{
+  position: absolute;
+  justify-self: center;
+  top: 400px;
+  width: 120px;
+  height: 120px;
+  border: 5px solid purple;
+  background-color: honeydew;
+  border-radius: 60px 0 60px 0;
+  animation-timing-function: 300ms;
+  animation-duration: 10s;
+  animation-name: suppo;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes suppo{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+.suppo1{
+  position: relative;
+  text-align: center;
+  font: 20px bold;
+  font-weight: 900;
+  font-style: italic;
+}
+.suppo1 h4{
+  position: relative;
+  top: 5px;
+  animation-timing-function: 300ms;
+  animation-duration: 10s;
+  animation-name: h4;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes h4{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
 .lang{
   position: relative;
   color: white;
@@ -2555,4 +2625,147 @@ font-weight: 900;
   background-color: rgb(43, 42, 42);
   color: white;
   border: none;
+}
+.sutto{
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+  top: 400px;
+  background-color: #2b2a2a;
+}
+.splink{
+  position: relative;
+  width: 30vw;
+  height: auto;
+  background-color: transparent;
+  top: 20px;
+  margin-left :20px;
+}
+.splink h3{
+  position: relative;
+  color: white;
+  text-align: center;
+  font: bold;
+  font-weight: 900;
+}
+.sptlink{
+  display: grid;
+  gap: 5px;
+}
+.sptlink a{
+  position: relative;
+  color: whitesmoke;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+}
+.sptlink a:hover{
+  position: relative;
+  transition: all ease-in 0.3s;
+  cursor: pointer;
+  color: hotpink;
+  transform: translateY(2px);
+  padding-left: 2px;
+}
+.email{
+  position: absolute;
+  justify-self: center;
+  bottom: 110px;
+  text-align: center;
+  flex: auto;
+  width: 30vw;
+  height: auto;
+  background-color: transparent;
+}
+.email h3{
+  position: relative;
+  color: white;
+  font: bold 20px;
+}
+.email1 input{
+  position: relative;
+  width: 25vw;
+  height: 6vh;
+  border: 1px solid white;
+  background-color: #050524;
+  color: white;
+}
+.email1 input::placeholder{
+  position: relative;
+  color: rgb(83, 81, 81);
+  font: bold;
+  font-weight: 900;
+}
+.email1 input:hover{
+  position: relative;
+  transition: all ease-in 0.3s;
+  border: 1px solid cyan;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.butto1 button{
+  position: relative;
+  width: 15vw;
+  height: 6vh;
+  border:1px solid yellow;
+  font: 20px bold;
+  cursor: pointer;
+  border-left: 3px solid yellow;
+  border-right: 3px solid yellow;
+  background-color: green;
+  border-radius: 20px;
+  overflow-wrap: break-word;
+}
+.butto1 button:hover{
+  position: relative;
+  transition: all ease-in 0.3s;
+  cursor: pointer;
+  background-color: rgb(1, 37, 37);
+  color: white;
+}
+.butto2{
+  position: absolute;
+  width: 20vw;
+  height: auto;
+  background-color: transparent;
+  justify-self: right;
+  margin-right: 20px;
+  bottom: 120px;
+}
+.butto3{
+  display: grid;
+  gap: 5px;
+}
+.butto3 a{
+  position:relative;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  text-transform: capitalize;
+}
+.butto3 a:hover{
+  position: relative;
+  color: hotpink;
+  cursor: pointer;
+  transition: all ease-in 0.3s;
+  transform: translateY(2px);
+  padding-left: 2px;
+}
+.butto2 h3{
+  position: relative;
+  color: white;
+  font: 20px bold;
+  text-align: center;
+  font-weight: 900;
+}
+.evariste{
+  position: relative;
+  text-align: center;
+  top: 30px;
+  color: white;
+  font: 20px bold;
+  font-weight: 900;
+  font-style: italic;
 }
