@@ -72,7 +72,6 @@ function Home() {
             </div>
         </form>
     </div>
-     <section className='af'>
         <div className='oth'>
             <div className='cool'>
             <a href="">trust center</a>
@@ -83,7 +82,6 @@ function Home() {
         </div>
         <div className='fte'>
             <div className='set'>
-                <p>©evariste🍁 leaf 2026</p>
                 <select id='syste'>
                     <option value="">system</option>
                     <option value="">dark</option>
@@ -91,7 +89,6 @@ function Home() {
                 </select>
             </div>
         </div>
-    </section>
             </section>
             <div className="lang">
                 <h2>language setting🌍</h2>
@@ -117,6 +114,9 @@ function Home() {
                         <option value="">🇸🇸 urdu</option>
                     </select>
                 </div>
+            </div>
+             <div className="pota">
+                <p>©Evariste🍁 2026</p>
             </div>
         </div>
     )
